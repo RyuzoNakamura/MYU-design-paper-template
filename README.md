@@ -27,12 +27,12 @@
 論文データを入れるフォルダでターミナルを開いて
 
 ```
-git clone https://github.com/RyuzoNakamura/CUX-Lab-paper-template.git
+git clone https://github.com/RyuzoNakamura/MYU-design-paper-template.git
 ```
 
 ## 4. 必要なパッケージ
 
-以下のパッケージがインストールされていることを確認の上、使用してください。
+以下のパッケージがインストールされていることを確認の上、使用してください。「こんなパッケージ無いぞ！？」ってのがあったら、多分こっちのミスなので、一旦コンパイルしてみてください。コンパイルできたら OK です。
 
 現在のパッケージインストール状況は TeX Live Manager から確認できます。
 
@@ -58,6 +58,9 @@ git clone https://github.com/RyuzoNakamura/CUX-Lab-paper-template.git
 > エラーが出る場合、必要なパッケージがインストールされていません。
 
 main.tex に本文を書きます。もともと入っているダミーテキストを参考に文章を書きつつ、実現したいレイアウトがあったら適宜調べながら進めてください。
+
+> [!WARNING]
+> コンパイルの際はレシピに必ず latexmk(latexmkrc) を指定するようにしてください。
 
 ## 6. テンプレートの更新について
 
